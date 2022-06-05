@@ -19,8 +19,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-solution-W4e4019U1S)
+- Live Site URL: [Add live site URL here](https://onemanbanned.github.io/Sunnyside-agency-landing-page-solution/)
 
 ### Built with
 
