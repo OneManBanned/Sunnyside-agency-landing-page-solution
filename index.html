@@ -16,48 +16,48 @@
     <button aria-label="navigation" href="#"><img src="./images/icon-hamburger.svg" alt=""></button>
     <nav>
       <ul class="navList navOpen">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="/#about">About</a></li>
+        <li><a href="/#services">Services</a></li>
+        <li><a href="/#projects">Projects</a></li>
+        <li><a href="/#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <div class="hero">
       <h1>We are creatives</h1>
-      <img class="heroHeading-arrow" src="./images/icon-arrow-down.svg" alt="">
+      <img class="heroHeading-arrow arrowBounce" src="./images/icon-arrow-down.svg" alt="">
       <picture>
         <source media="(min-width: 23.5rem)" srcset="./images/dt/image-header@2x.jpg">
         <img loading="eager" src="./images/mb/image-header@2x.jpg" alt="" class="heroImg">
       </picture>
     </div>
-    <div class="transform">
+    <div class="transform" id="about">
       <picture class="transformImg">
         <source media="(min-width: 23.5rem)" srcset="./images/dt/image-transform@2x.jpg">
-        <img src="./images/mb/image-transform@2x.jpg" alt="an egg" loading="lazy">
+        <img src="./images/mb/image-transform@2x.jpg" alt="" loading="lazy">
       </picture>
       <div class="transformInfo">
         <h2>Transform your brand</h2>
         <p>We are a full-service creative agency specializing in helping brands grow fast.
           Engage your clients through compelling visuals that do most of the marketing for you.</p>
-        <a href="#">Learn more</a>
+        <a href="/#testimonials">Learn more</a>
       </div>
     </div>
     <div class="standout">
       <picture class="standoutImg">
         <source media="(min-width: 23.5rem)" srcset="./images/dt/image-stand-out@2x.jpg">
-        <img src="./images/mb/image-stand-out@2x.jpg" alt="A pink glass" loading="lazy">
+        <img src="./images/mb/image-stand-out@2x.jpg" alt="" loading="lazy">
       </picture>
       <div class="standoutInfo">
         <h2>Stand out to the right audience</h2>
         <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll
           build
           and extend your brand in digital places.</p>
-        <a href="#">Learn more</a>
+        <a href="/#testimonials">Learn more</a>
       </div>
     </div>
-    <div class="designContainer">
+    <div class="designContainer" id="services">
       <div class="graphicDesign">
         <picture>
           <source media="(min-width: 23.5rem)" srcset="./images/dt/image-graphic-design@2x.jpg">
@@ -87,7 +87,7 @@
       <h4>Client testimonials</h4>
       <div class="testimonialsContainer">
         <div class="testimonial">
-          <img src="./images/image-emily.jpg" alt="profile picture Emily">
+          <img src="./images/image-emily.jpg" alt="Headshot of Emily R.">
           <blockquote>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines
             were
             always hit.</blockquote>
@@ -96,8 +96,8 @@
             <cite class="occupation">Marketing Director</cite>
           </footer>
         </div>
-        <div class="testimonial">
-          <img src="./images/image-thomas.jpg" alt="profile picture Thomas">
+        <div class="testimonial" id="testimonials">
+          <img src="./images/image-thomas.jpg" alt="Headshot of Thomas S.">
           <blockquote>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a
             satisfying
             and
@@ -109,7 +109,7 @@
           </footer>
         </div>
         <div class="testimonial last">
-          <img src="./images/image-jennie.jpg" alt="profile picture Jennie">
+          <img src="./images/image-jennie.jpg" alt="Headshot of Jennie F.">
           <blockquote>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly
             recommended!
           </blockquote>
@@ -120,26 +120,30 @@
         </div>
       </div>
     </div>
-    <div class="pictureContainer">
+    <div class="pictureContainer" id="projects">
       <picture>
         <source media="(min-width: 23.5rem)" srcset="./images/dt/image-gallery-milkbottles@2x.jpg">
-        <img loading="lazy" src="./images/mb/image-gallery-milkbottles@2x.jpg" alt="Milkbottles">
+        <img loading="lazy" src="./images/mb/image-gallery-milkbottles@2x.jpg"
+          alt="milkbottles against a cloudy sky backdrop">
       </picture>
       <picture>
         <source media="(min-width: 23.5rem)" srcset="./images/dt/image-gallery-orange@2x.jpg">
-        <img loading="lazy" src="./images/mb/image-gallery-orange@2x.jpg" alt="An orange">
+        <img loading="lazy" src="./images/mb/image-gallery-orange@2x.jpg"
+          alt="An orange placed inside a white bowl on a blue plate against an orange colored backdrop">
       </picture>
       <picture>
         <source media="(min-width: 23.5rem)" srcset="./images/dt/image-gallery-cone@2x.jpg">
-        <img loading="lazy" src="./images/mb/image-gallery-cone@2x.jpg" alt="An ice cream cone">
+        <img loading="lazy" src="./images/mb/image-gallery-cone@2x.jpg"
+          alt="An empty ice cream cone against a baby blue backdrop">
       </picture>
       <picture>
         <source media="(min-width: 23.5rem)" srcset="./images/dt/image-gallery-sugarcubes@2x.jpg">
-        <img loading="lazy" src="./images/mb/image-gallery-sugar-cubes@2x.jpg" alt="Sugar cubes">
+        <img loading="lazy" src="./images/mb/image-gallery-sugar-cubes@2x.jpg"
+          alt="A tower of sugarcubes against a pink backdrop">
       </picture>
     </div>
   </main>
-  <footer class="footer">
+  <footer class="footer" id="contact">
     <a href="#">
       <svg width="124" height="24" viewBox="0,0,124,24" xmlns="http://www.w3.org/2000/svg">
         <title>Sunnyside logo</title>
@@ -149,9 +153,9 @@
       </svg>
     </a>
     <div class="footer-siteLinks">
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Projects</a>
+      <a href="/#about">About</a>
+      <a href="/#services">Services</a>
+      <a href="/#projects">Projects</a>
     </div>
     <div class="footer-socialLinks">
       <a class="footer-icon" href="#" id="facebook"><svg width="20" height="20" viewBox="0,0,20,20"
