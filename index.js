@@ -1,27 +1,11 @@
-const hamburger = document.querySelector('.--header-hamburger')
-const nav = document.querySelector('nav')
+const navBtn = document.querySelector('header>button')
+const nav = document.querySelector('.navList')
+const { classList } = nav
 
+window.onresize = () => setNavState()
+window.onload = () => setNavState()
+navBtn.onclick = () => classList.toggle('navClose')
 
-window.addEventListener('load', resize)
-window.addEventListener('resize', resize)
-hamburger.addEventListener('click', toggleNav)
+const setNavState = () => window.innerWidth > 375
+    ? classList.remove('navClose') : classList.add('navClose')
 
-
-function toggleNav() {
-    nav.classList.toggle('inactive')
-    if (nav.classList.contains('inactive')) {
-        hamburger.style.opacity = '100'
-    } else
-        hamburger.style.opacity = '.5'
-}
-
-
-function resize() {
-    let query = window.matchMedia('(min-width: 500px)')
-    if (query.matches) {
-        nav.classList.remove('inactive')
-    } else {
-        nav.classList.add('inactive')
-        hamburger.style.opacity = '100'
-    }
-}
