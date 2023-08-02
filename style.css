@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 *,
 *::after,
 *::before {
@@ -9,7 +13,6 @@
     font-size: 1.125rem;
     list-style: none;
     text-decoration: none;
-    scroll-behavior: smooth;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -288,7 +291,7 @@ img {
     padding-block-end: 22%;
 }
 
-.testimonials>h4 {
+.testimonials-heading {
     text-align: center;
     font-size: clamp(0.2rem, -0.6308rem + 7.3846vw, 1.1rem);
     font-weight: 900;
@@ -572,7 +575,7 @@ cite {
         padding-block-end: 8%;
     }
 
-    .testimonials>h4 {
+    .testimonials-heading {
         font-size: clamp(0.25rem, -0.1159rem + 1.561vw, 1.25rem);
         padding: 0;
         padding-block-start: 12.3%;
@@ -593,7 +596,7 @@ cite {
     }
 
     .testimonial>* {
-        margin-block-end: 16%;
+        margin-block-end: 4.2vw;
     }
 
     .testimonial>img {
@@ -604,10 +607,11 @@ cite {
         line-height: 190%;
         padding: 0;
         font-size: clamp(0.2rem, -0.1293rem + 1.4049vw, 1.1rem);
+        margin-block-end: 5.1vw;
     }
 
     cite {
-        margin-block-start: 6.5%;
+        margin-block-end: .9vw;
     }
 
     .author {
@@ -615,6 +619,7 @@ cite {
     }
 
     .occupation {
+        padding: 0;
         margin: 0;
         font-size: clamp(0.25rem, 0.0122rem + 1.0146vw, 0.9rem);
     }

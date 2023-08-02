@@ -5,7 +5,10 @@ const { classList } = nav
 window.onresize = () => setNavState()
 window.onload = () => setNavState()
 navBtn.onclick = () => classList.toggle('navClose')
+window.location.hash = ''
+history.scrollRestoration = 'manual'
+
+// window.scrollTo(0)
 
 const setNavState = () => window.innerWidth > 375
     ? classList.remove('navClose') : classList.add('navClose')
-
