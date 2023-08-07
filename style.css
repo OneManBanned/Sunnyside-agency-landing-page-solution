@@ -556,7 +556,21 @@ cite {
 
     .designContainer {
         display: flex;
-        width: 100%
+        width: 100%;
+        background-color: red;
+    }
+
+    .graphicDesign,
+    .photography {
+        width: 50%;
+    }
+
+    .graphicDesignInfo,
+    .photographyInfo {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
     }
 
     .graphicDesignInfo>h3,
